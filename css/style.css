@@ -122,7 +122,7 @@ footer{
     font-weight: bold;
 }
 
-nav{
+nav a{
     margin: 0 15px;
     text-decoration: none;
     font-family: "Jersey 10", sans-serif;
