@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+
+
+}
+
+.main-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    position: relative;
+    height: 850px;
+}
+
+img{
+    width: 100%;
+    height: 95%;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.main-header h1{
+    font-family:"Jersey 10", sans-serif;
+    text-shadow: 5px 5px 5px rgb(42, 40, 40);
+    font-weight: 800;
+    color:rgb(195, 13, 98);
+    -webkit-text-stroke: 1px rgb(214, 197, 208);
+    align-items: center;
+    font-size: 100px;
+}
+
+.main-header button{
+    background-color: rgba(129, 154, 230, 0.455);
+    color: rgb(40, 55, 101);
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(55, 39, 39, 0.605);
+    border-color: rgb(129,154,230, 0.455);
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.main-header button:hover{
+    background-color: rgba(232, 122, 173, 0.516);
+    color: rgb(95, 46, 69);
+    border-color: rgba(232, 122, 173, 0.516);
+
+}
+
+.secciones{
+    padding: 7vh 20px; 
+    text-align: center;
+    background-color: aliceblue;
+}
+
+
+.secciones h2{
+    font-family: "Jersey 10", sans-serif;
+    text-shadow: 5px 5px 5px rgba(124, 91, 34, 0.49);
+    font-weight: 400;
+    font-size: 80px;
+    color: burlywood;
+    margin-bottom: 60px;
+
+}
+
+.secciones-texto{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.secciones-texto div{
+    background-color: rgba(255, 162, 196, 0.511);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(121, 113, 113, 0.475);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%
+}
+
+.texto h3{
+    font-family: "Jersey 10", sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.513);
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(59, 28, 4);
+    margin: 25px;
+}
+
+.texto p{
+    font-size: 18px;
+    font-family: monospace;
+    color:rgb(42, 40, 40);
+}
+.texto ul{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: monospace;
+    color:rgb(42, 40, 40);
+}
+footer{
+    background-color: blanchedalmond;
+    color: brown; 
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav{
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 20px;
+    color: rgb(95, 46, 69);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
